@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	background: #ffffff;
+}
+#title{
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 0;
+	left: 30%;
+	/* background: #0000FF; */
+	font-size: 30px;
+	color: black;
+	
+	/* 居中布局 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#left1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	left: 0;
+	/* background: blue; */
+}
+
+#left2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 0;
+	/* background: greenyellow; */
+}
+
+#c1{
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	top: 10%;
+	left: 30%;
+	/* background: red; */
+}
+
+.num{
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gold;
+	font-size: 20px;
+}
+
+.txt{
+	width: 25%;
+	float: left;
+	font-size: '幼圆';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+#c2{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	top: 40%;
+	left: 30%;
+	/* background: gray; */
+}
+
+#right1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	right: 0;
+	/* background: gold; */
+}
+
+#right2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	right: 0;
+	/* background: green; */
+}
+
+#time{
+	position: absolute;
+	/* width: 30%; */
+	height: 10%;
+	top: 5;
+	right: 2%;
+	/* background: gray; */
+	font-size: 20px;
+	color: white;
+}
